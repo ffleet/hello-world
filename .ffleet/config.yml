@@ -5,5 +5,6 @@ functions:
   hello-world:
     handler: index.hello_world
 http:
-  /:
-    function: hello-world
+  routes:
+    /:
+      function: hello-world
