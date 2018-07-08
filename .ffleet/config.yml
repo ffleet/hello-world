@@ -7,4 +7,5 @@ functions:
 http:
   routes:
     /:
-      function: hello-world
+      get:
+        function: hello-world
