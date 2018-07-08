@@ -1,6 +1,7 @@
-const shim = require('@ffleet/shim');
-
-function hello_world(req, res) {
-	res.end('Hello, World!');
+function hello_world(event, context, callback) {
+	callback(null, {
+		statusCode: 200,
+		body: 'Hello, World!'
+	});
 }
-exports.hello_world = shim.http(hello_world);
+exports.hello_world = hello_world;
