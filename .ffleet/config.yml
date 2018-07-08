@@ -2,10 +2,10 @@ version: 1
 role: arn:aws:iam::962961885225:role/lambda
 runtime: node8
 functions:
-  hello-world:
+  helloworld:
     handler: index.hello_world
 http:
   routes:
     /:
       get:
-        function: hello-world
+        function: helloworld
