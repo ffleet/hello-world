@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@ffleet/shim": "^1.2.5"
+  }
+}
