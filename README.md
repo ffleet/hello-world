@@ -1,3 +1,3 @@
 # Hello World Service
 
-(https://hello-world.ffleet.app/)[HTTP Endpoint]
+[HTTP Endpoint](https://hello-world.ffleet.app/)
